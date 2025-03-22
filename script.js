@@ -13,7 +13,7 @@ function backspace() {
 
 function calcResult() {
     try {
-        document.getElementById("display").value = eval(document.getElementById("display").value);
+        document.getElementById("display").value = new Function("return " + document.getElementById("display").value)();
     } catch {
         document.getElementById("display").value = "Error";
     }

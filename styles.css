@@ -33,7 +33,6 @@ body {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     color: white;
-    outline: none;
 }
 
 .buttons {
@@ -72,10 +71,10 @@ button:active {
 }
 
 button:nth-child(1) { background: #6b7e71; } 
-button:nth-child(1):hover { background: #85bd95; }
+button:nth-child(1):hover { background: #609872; }
 
 button:nth-child(4) { background: #936941; }
-button:nth-child(4):hover { background: #ffb366; }
+button:nth-child(4):hover { background: #b87633; }
 
 button:nth-child(16) { background: #4c708d; } 
-button:nth-child(16):hover { background: #48dbfb; }
+button:nth-child(16):hover { background: #247d93; }
